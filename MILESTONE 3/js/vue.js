@@ -24,19 +24,19 @@ const app = new Vue({
             }
         ],
 
-        newToDo: 'dabarbarbzdfbd',
+        newToDo: '',
+        
     },
 
     methods:{
         insertToDo(){
-            console.log(this.newToDO);
+            console.log(this.newToDo);
             const element = {
-                text: this.newToDO,
+                text: this.newToDo,
                 done: false,
             };
-            console.log(this.newToDO);
-            console.log(element);
-            for(elementi of this.toDoElements) console.log(elementi);
+            
+            
             this.toDoElements.push(element);
         },
 

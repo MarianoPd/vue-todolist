@@ -39,7 +39,7 @@
                     <span v-if="element.done" 
                     @click="element.done = !element.done" class="circle check">&#x2714</span>
                     <span v-else class="circle uncheck" @click="element.done = !element.done">&#x2718</span>
-                    <span>{{element.text}}</span>
+                    <span @click="element.done = !element.done">{{element.text}}</span>
                     <button class="btn" @click="toDoElements.splice(index,1)">x</button>
                 </div>
             </section>
