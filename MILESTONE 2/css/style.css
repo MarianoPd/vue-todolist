@@ -1,0 +1,160 @@
+/* settaggi preliminari */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: whitesmoke;
+}
+/*********HEADER**********/
+header{
+    height: 60px;
+    background-color: white;
+    /* line-height: 50px;   */
+    /* font-size: 30px;
+    font-weight: 900;
+    vertical-align: bottom ; */
+}  
+
+/* header img{
+    /* margin-top: 5px; */
+} 
+*/
+
+/* il nome del sitonon si centra da solo */
+ /* header #sitename{   
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 100%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: middle;    
+} 
+************MAIN************ */
+main{
+    width: 60%;
+    background-color: white;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    padding-bottom: 50px;
+}
+
+section.mp-container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px;
+    
+}
+/* la simpatica linietta */
+.line{
+    height: 2px;
+    background-color: whitesmoke;
+    margin-top: 10px;
+    width: 100%;
+}
+/* i bottoni del menu' */
+/* button.menu{
+    padding: 8px 12px;
+    border: 0px;
+} */
+
+.task, .section{
+    border-radius: 6px;
+
+}
+.task{
+    background-color: rgb(99, 183, 223);
+    color: white;
+}
+
+.section{
+    border: 2px solid lightgrey;
+    background-color: white;
+    color: lightgrey;
+}
+/* la lista contiene titolo ed elementi */
+div.list{
+    margin-top: 20px ;
+}
+
+div.list-name{
+    display: inline-block;
+    font-weight: 900;
+}
+
+div.element{
+    margin-top: 20px;
+}
+
+/* perchè le cose facili non ci piacciono */
+.triangle{
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 7px 7px 0 7px;
+    border-color: black transparent transparent transparent;
+    margin-right: 5px;
+}
+
+/* ma proprio per niente */
+.circle{
+    display: inline-block;    
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    vertical-align: middle;
+    line-height: 100%;
+    margin-right: 5px;
+}
+
+.check{    
+    border: 2px solid rgb(28, 211, 43);
+    color: rgb(28, 211, 43);      
+}
+
+.uncheck{    
+    border: 2px solid rgb(228, 59, 29);
+    color: rgb(228, 59, 29);    
+}
+
+/* i tag a lato degli elementi */
+span.tag{
+    box-sizing: border-box;
+    padding: 8px 12px;
+    border-radius: 18px;
+    color: white;
+    margin-left: 5px;
+    border: 0px;  
+    font-size: small;  
+}
+
+span.editorial{
+    background-color: rgb(99, 183, 223);
+}
+span.goals{
+    background-color: rgb(125, 80, 146);
+}
+span.recruiting{
+    background-color: rgb(121, 184, 168);
+}
+span.mobile{
+    background-color: rgb(224, 141, 62);
+}
+span.website{
+    background-color: rgb(223, 99, 171);
+}
+span.sales{
+    background-color: rgb(159, 223, 99);
+}
+
+
+
+
+
