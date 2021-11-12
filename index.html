@@ -29,8 +29,10 @@
             </section>
             <section>
                 <div v-for="(element, index) of toDoElements"
-                    class="p-lg-3 "
+                    class="p-lg-3" :class="{'text-decoration-line-through': element.done}"
                 >
+                <span v-if="element.done" class="circle check">&#x2714</span>
+                <span v-else class="circle uncheck">&#x2718</span>
                     {{element.text}}
 
                 </div>

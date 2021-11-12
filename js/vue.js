@@ -15,7 +15,7 @@ const app = new Vue({
                 done: true,
             },
             {
-                text: 'Interview John H,', 
+                text: 'Interview John H.', 
                 done: false,
             },
             {

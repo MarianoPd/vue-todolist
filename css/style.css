@@ -59,10 +59,10 @@ section.mp-container{
     width: 100%;
 }
 /* i bottoni del menu' */
-button.menu{
+/* button.menu{
     padding: 8px 12px;
     border: 0px;
-}
+} */
 
 .task, .section{
     border-radius: 6px;
@@ -104,7 +104,7 @@ div.element{
 }
 
 /* ma proprio per niente */
-div.circle{
+.circle{
     display: inline-block;    
     width: 20px;
     height: 20px;
@@ -114,12 +114,12 @@ div.circle{
     margin-right: 5px;
 }
 
-div.check{    
+.check{    
     border: 2px solid rgb(28, 211, 43);
     color: rgb(28, 211, 43);      
 }
 
-div.uncheck{    
+.uncheck{    
     border: 2px solid rgb(228, 59, 29);
     color: rgb(228, 59, 29);    
 }
