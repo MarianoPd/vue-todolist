@@ -31,13 +31,13 @@ const app = new Vue({
     methods:{
         insertToDo(){
             console.log(this.newToDo);
-            const element = {
-                text: this.newToDo,
-                done: false,
-            };
-            
-            
-            this.toDoElements.push(element);
+            if(this.newToDo !== ''){
+                const element = {
+                    text: this.newToDo,
+                    done: false,
+                };   
+                this.toDoElements.push(element);
+            }
         },
 
     },
