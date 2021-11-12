@@ -36,6 +36,7 @@ const app = new Vue({
                     text: this.newToDo,
                     done: false,
                 };   
+                this.newToDo = '';
                 this.toDoElements.push(element);
             }
         },
