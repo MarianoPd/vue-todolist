@@ -22,13 +22,14 @@
     <div id="app">
         <main class="container w-75 p-3">        
             <section >
-                <button @click="insertTodo()"
+                <button @click="insertToDo()"
                 class="btn btn-primary">
                     Add Task
                 </button>
                 <!-- <button class="menu section" >Add Section</button>  -->
-                <input  type="text" class="w-75" 
+                <input v-model="newToDo" @keyup.enter="insertToDo" type="text" class="w-75" 
                 placeholder="What do you need to do?">
+               
                 <div class="line"></div>
             </section>
             <section>
